@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README - monthly_reports.md</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="fractional-cover-monthly-reports-for-australia">Fractional Cover Monthly Reports for Australia</h1>
+<p>This repository includes the code that runs the monthly reports and generate statistics for fractional cover for Australian regions<br>
+The code in this repository initially grabs data from NCI. See below for details.<br>
+This code sits in CSIRO’s network in</p>
+<pre><code>/datasets/work/lw-lpdaac/work/fc-wron/data/monthly_fc_run/monthly_reports/
+</code></pre>
+<p>(windows equivalent:)</p>
+<pre><code>\\fs1-cbr.nexus.csiro.au\{lw-lpdaac}\work\fc-wron\data\monthly_fc_run\monthly_reports
+</code></pre>
+<h2 id="overview">Overview</h2>
+<p>This repository is the last of a 4-part workflow used for creating the MODIS Fractional Cover product and derived reports and statistics.<br>
+The flowchart below shows the 4 part process. An editable version of the flowchart can be accessed in <a href="https://docs.google.com/drawings/d/14qGEwsMeR98Kbnfan5z8smXKcpzJiENMwNrS4_r7dhA/edit?usp=sharing">https://docs.google.com/drawings/d/14qGEwsMeR98Kbnfan5z8smXKcpzJiENMwNrS4_r7dhA/edit?usp=sharing</a></p>
+<p><img src="MODIS_Fractional_Cover_pipeline.svg" alt="flowchart MODIS FC overview"></p>
+<h2 id="steps">Steps:</h2>
+<ol>
+<li>Copy data (Aus FC mosaics) from GADI</li>
+<li>Submit monthly reports (jobs) for NRM regions</li>
+<li>Submit monthly reports (jobs) for LGA regions</li>
+<li>Submit monthly reports (jobs) for big regions (separate code)</li>
+<li>Calculate statistics for Stephan</li>
+<li>Calculate statistics (saved to a separate csv file)</li>
+</ol>
+<h2 id="specifics">specifics</h2>
+<p>This code sits in CSIRO’s network in</p>
+<pre><code>/datasets/work/lw-lpdaac/work/fc-wron/data/monthly_fc_run/monthly_reports/
+</code></pre>
+<p>The scripts are triggered initially by <code>automated_jobs.sh</code>:</p>
+<pre><code>bash automated_jobs.sh
+</code></pre>
+<p>then:</p>
+<pre><code>bash run_calculate_stats_all.sh
+</code></pre>
+<p>and then:</p>
+<pre><code>bash sbatch_aggregate_statistics_fc.sh
+</code></pre>
+<p>All this is run weekly via a cron job -<strong>COMPLETE WHEN Cron jobs are set up</strong>-</p>
+<h2 id="notes">notes</h2>
+<ol>
+<li>See in NCI files are up to date in <code>/g/data/tc43/modis-fc/v310/tiles/8-day</code> and <code>/g/data/tc43/modis-fc/v310/tiles/monthly</code>. Process and scripts as per  <a href="https://bitbucket.csiro.au/projects/LANDSCAPES/repos/geoglam/browse">https://bitbucket.csiro.au/projects/LANDSCAPES/repos/geoglam/browse</a></li>
+<li>Run/check automated process for creating mosaics as per  <a href="https://bitbucket.csiro.au/projects/LANDSCAPES/repos/fc_mosaics/browse">https://bitbucket.csiro.au/projects/LANDSCAPES/repos/fc_mosaics/browse</a></li>
+<li>To copy all the files from NCI, run <code>copy_monthly_data.sh</code> (this is done in <code>automated_jobs.sh</code>)</li>
+</ol>
+</div>
+</body>
+
+</html>
