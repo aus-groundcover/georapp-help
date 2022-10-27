@@ -9,7 +9,7 @@ markdown_extensions:
   - toc:
       permalink: True
 nav:
-  - 'index.md'
+  - 'User guide': 'index.md'
   - Disclaimer: 'disclaimer.md'
   - 'introduction.md'
   - 'getting-started.md'
@@ -21,6 +21,7 @@ nav:
   - 'share-print-story.md'
   - 'troubleshooting.md'
   - 'feedback.md'
+  - 'youtube-videos.md'
 plugins:
   # - blog:
   #     folder: "articles"
