@@ -1,0 +1,26 @@
+site_name: Geoglam RaPP Help
+site_url: https://eo-data.csiro.au/remotesensing/RaPP_Help
+theme: material
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - toc:
+      permalink: True
+nav:
+  - 'index.md'
+  - Disclaimer: 'disclaimer.md'
+  - 'introduction.md'
+  - 'getting-started.md'
+  - 'map-view-display-options.md'
+  - Workbench: 'workbench.md'
+  - 'data-layers.md'
+plugins:
+  # - blog:
+  #     folder: "articles"
+  - search
+  - git-revision-date-localized
+  # - redirects:
+  #     redirect_maps:
+        # 'developers/data-managers-guide.md': 'developers/data/data-managers-guide.md'

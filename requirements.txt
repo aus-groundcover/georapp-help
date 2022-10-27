@@ -1,0 +1,7 @@
+pygments>=2.9
+pymdown-extensions
+mkdocs
+mkdocs-material
+mkdocs-blog-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-redirects
