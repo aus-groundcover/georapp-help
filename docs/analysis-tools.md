@@ -75,7 +75,7 @@ Mean values can be useful for small areas to summarise the vegetation cover. How
 <figure>
 <img src="../img/43-analysis-monthly-fc.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 43 Chart from analysis of monthly fractional cover mean for Corangamite NRM region Victoria
+</figcaption>Figure 43: Chart from analysis of monthly fractional cover mean for Corangamite NRM region Victoria
 </figure>
 
 __Mean for point or region (Monthly)__

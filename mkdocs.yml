@@ -17,6 +17,7 @@ nav:
   - Workbench: 'workbench.md'
   - 'data-layers.md'
   - 'analysis-tools.md'
+  - 'reports.md'
 plugins:
   # - blog:
   #     folder: "articles"
