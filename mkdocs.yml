@@ -18,6 +18,9 @@ nav:
   - 'data-layers.md'
   - 'analysis-tools.md'
   - 'reports.md'
+  - 'share-print-story.md'
+  - 'troubleshooting.md'
+  - 'feedback.md'
 plugins:
   # - blog:
   #     folder: "articles"
