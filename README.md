@@ -30,3 +30,15 @@ For full documentation visit:
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Rebuild and upload
+
+The help pages are made public from [https://eo-data.csiro.au/remotesensing/rapp-help/](https://eo-data.csiro.au/remotesensing/rapp-help/).
+
+This path is a mount to the Bowen share `{lw-lpdaac}/work/fc-wron/data/public/rapp-help/`.
+
+
+```bash
+mkdocs build
+rsync -rtv site/ {lw-lpdaac}/work/fc-wron/data/public/rapp-help/
+```

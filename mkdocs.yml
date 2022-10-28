@@ -1,5 +1,5 @@
 site_name: Geoglam RaPP Help
-site_url: https://eo-data.csiro.au/remotesensing/RaPP_Help
+site_url: https://eo-data.csiro.au/remotesensing/rapp-help/
 theme: material
 markdown_extensions:
   - pymdownx.highlight

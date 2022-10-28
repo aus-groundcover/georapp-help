@@ -15,4 +15,4 @@ This online tool provides time-series data on vegetation and environmental condi
 - Through funding from the [Department of Climate Change, Energy, the Environment and Water](https://www.dcceew.gov.au/)
 - and Regional land partnership flagship project under [Australian Government’s National Landcare Program](https://www.dcceew.gov.au/environment/land/landcare).
 
-![](img/logo-csiro-data61.png)  ![](img/logo-landcare.png)
+![](img/logo-csiro.png) &nbsp; &nbsp; ![](img/logo-data61.png) &nbsp; &nbsp; &nbsp; &nbsp; ![](img/national_landcare_programme.png)
