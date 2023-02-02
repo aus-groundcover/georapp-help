@@ -1,28 +1,15 @@
 # Introduction
-This repository contains the Geoglam Rapp Help source files. The documentation website is statically generated from this repository using [mkdocs.org](https://www.mkdocs.org).
+This repository contains the Geoglam Rapp Help source files.
 
-Manually copy generated HTML files to {lw-lpdaac}/work/fc-wron/data/public/RaPP_Help, which is mounted publically at https://eo-data.csiro.au/remotesensing/RaPP_Help.
+- The documentation website is statically generated from this repository using [MkDocs](https://www.mkdocs.org).
+- Manually copy generated HTML files to the server at [https://eo-data.csiro.au/remotesensing/RaPP_Help](https://eo-data.csiro.au/remotesensing/RaPP_Help).
 
-# Getting Started
-Prerequisites:
-* Python
+## Getting Started
 
-Install the following using `pip install -r requirements.txt`:
-* pygments (>=2.9.0)
-* pymdown-extensions
-* mkdocs
-* mkdocs-material
-
-For full documentation visit:
-  * [mkdocs.org](https://www.mkdocs.org)
-  * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. Clone this repository
+1. `mkdocs serve` will start a local server. Save your changes to the files and view them at the local link given.
+1. Make a branch and PR to this repository
+1. Once the PR is merged an admin will build and upload the updates to the hosting server.
 
 ## Project layout
 
@@ -31,14 +18,21 @@ For full documentation visit:
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-## Rebuild and upload
+## Commands
 
-The help pages are made public from [https://eo-data.csiro.au/remotesensing/rapp-help/](https://eo-data.csiro.au/remotesensing/rapp-help/).
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
 
-This path is a mount to the Bowen share `{lw-lpdaac}/work/fc-wron/data/public/rapp-help/`.
+Full documentation:
+- [mkdocs.org](https://www.mkdocs.org)
+- [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 
+## Prerequisites
+* Python3
 
-```bash
-mkdocs build
-rsync -rtv site/ {lw-lpdaac}/work/fc-wron/data/public/rapp-help/
-```
+Install the following using `pip install -r requirements.txt`:
+* pygments (>=2.9.0)
+* pymdown-extensions
+* mkdocs
+* mkdocs-material
