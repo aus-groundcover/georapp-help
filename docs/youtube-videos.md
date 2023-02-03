@@ -1,18 +1,18 @@
 # Youtube videos
 
-## How To Open RaPP Map
+## How to open RaPP Map
 [https://youtu.be/igcBH6vaF5U](https://youtu.be/igcBH6vaF5U)
 
 Guide on how to open RaPP Map
  
-## Map Viewer Display Options
+## Map viewer display options
 [https://youtu.be/O9aJnjheVOU](https://youtu.be/O9aJnjheVOU)
 
-Understanding the Map Viewer Display Options (7:56)
+Understanding the Map viewer display options (7:56)
 
 - Map Settings (Starts 0:40)
     - Map View 2D/3D mode
-    - Base map options
+    - Basemap options
 - Zoom (Starts 1:14)
 - Compare maps with the split tool (Starts 3:14)
 - Measure distances with the Line Measure tool (Starts at 6:34)
@@ -39,7 +39,7 @@ Understanding how to use the Workbench (7:11)
 - Use timeline (Starts at 6:07)
 - Show available times on chart (Starts at 6:30)
 
-## Accessing Data Layers
+## Accessing data layers
 [https://youtu.be/Aaz-6Gv41uI](https://youtu.be/Aaz-6Gv41uI)
 
 How to Access the different Data Layers available with RaPP Map (10:49)
@@ -53,7 +53,7 @@ How to Access the different Data Layers available with RaPP Map (10:49)
 - What is in the Data Catalogue – Global and Australia (Starts 1:32)
 - Total Vegetation cover MODIS 500m data sets (Starts at 0:28 and in more detail at 4:45)
  
-## Understanding Polygons
+## Understanding polygons
 [https://youtu.be/-yzCMShQs-Y](https://youtu.be/-yzCMShQs-Y)
 
 Video name Polygons (8:24)
@@ -63,10 +63,10 @@ Video name Polygons (8:24)
 - Importing polygons such as a geojson and zipped shape file (Starts at 3:57)
 - Creating polygons with geojason (Starts at 5:46)
 
-## Using  the Analysis Tools
+## Using the analysis tools
 [https://youtu.be/ZeiQjLSK2GA](https://youtu.be/ZeiQjLSK2GA)
  
-## Regional and LGA monthly Reports
+## Regional and LGA monthly reports
 [https://youtu.be/K-Vd9vEPQuQ](https://youtu.be/K-Vd9vEPQuQ)
 
 How to display and download regional and LGA reports.
@@ -76,7 +76,7 @@ How to display and download regional and LGA reports.
 - Exporting report data as a CSV (Starts at 11:03)
 - LGA reports
  
-## Share Print Story
+## Share or print story
 [https://youtu.be/2WghRLHHLS0](https://youtu.be/2WghRLHHLS0)
 
 How to use the share, print and story functions.

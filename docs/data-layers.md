@@ -144,7 +144,7 @@ To remove a single layer from the workbench
 ### Remove all layers (empty the workbench)
 Removing all layers in the workbench area (including the layers loaded by default) will empty the workbench leaving only the basemap. To empty the workbench click _Remove All_ under the blue “Explore map data” and “upload” tools (Figure 26)
 
-Note: all layers will be immediately removed leaving only the base map. There is no warning or undo for removing all layers. To return to the default view refresh the page or reload [https://map.geo-rapp.org](https://map.geo-rapp.org).
+Note: all layers will be immediately removed leaving only the basemap. There is no warning or undo for removing all layers. To return to the default view refresh the page or reload [https://map.geo-rapp.org](https://map.geo-rapp.org).
 
 <figure>
 <img src="../img/26-remove-all-layers.png" style="width:100%">
@@ -237,7 +237,7 @@ To see the timeseries change from the selected date to present, you can click th
 
 _Why is my timeseries change playing very slowly?_
 
-This could be because of the high number of loaded layers in the display. Make sure the base map in 2D mode. Turn off all other unnecessary datasets and run again.
+This could be because of the high number of loaded layers in the display. Make sure the basemap in 2D mode. Turn off all other unnecessary datasets and run again.
 
 ## Data catalogue layers
 Rapp map comes with a data catalogue containing data layers for view, analysis, reporting and sharing. RaPP map also enables you to add other public data or your own data and layers either from files or web services.

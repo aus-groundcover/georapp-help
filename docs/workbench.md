@@ -88,7 +88,7 @@ When layers details are shown in an expanded format the legend may show:
 
 - Ideal Zoom: zooms to layer extent
 - About Data: view information about the layer in the Explore map data window
-- Opacity slider: You can move the opacity slider to see the layer transparency change in the display. If you set the opacity to 0%, the layer will become completely transparent (Note: this is particularly useful when you want to see the underneath layer e.g. base map of the location)
+- Opacity slider: You can move the opacity slider to see the layer transparency change in the display. If you set the opacity to 0%, the layer will become completely transparent (Note: this is particularly useful when you want to see the underneath layer e.g. basemap of the location)
 - Time box: for time series data the date of layer is shown, use the navigation buttons to view other dates from the time series
 - The map legend explaining colours shown for this layer in the map viewer
  

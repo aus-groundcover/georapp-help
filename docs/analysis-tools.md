@@ -58,7 +58,7 @@ _Use your own prepared point or polygon files_
 
 Draw a new _Point (Lat/Lon)_ or _Polygon_. 
 
-1. Hide other layers to see the base map (or other context needed to locate your area of interest)
+1. Hide other layers to see the basemap (or other context needed to locate your area of interest)
 1. Navigate to your area of interest ([Search for location](workbench.md#search-for-location))
 1. Open Analysis tool (Explore map data, Analysis tools tab)
 1. Click point or polygon – This will take you to the map screen.

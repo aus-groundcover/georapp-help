@@ -1,8 +1,8 @@
-# Map view Display Options
+# Map view display options
 
 ## Map Settings
-You can change base maps, toggle between 2D and 3D data views, terrain availability if supported by the data and image optimisation designed for average performance computers.
-
+You can change basemaps, toggle between 2D and 3D data views, view 3D terrain if supported by the data, and optimise the image and map quality for your computer.
+ 
 ### Map View
 Map view lets you toggle between 3D terrain, 3D smooth and 2D. Default view is 2D which shows a vertical map view with north to the top. To visualise data in 3D, select the 3D terrain or 3D Smooth view. The map settings include Show terrain and Image optimisation only in 3D mode.
 
@@ -10,12 +10,12 @@ Select 3D Smooth to show a perspective view which has no elevation change. The m
 
 Select 3D Terrain to show a perspective view with an interpretation of the elevation changes in the terrain.
 
-### Base map   
-The base map can help find places of interest, provide context and satellite imagery. There are several different base maps to choose from. If you are finding locations of interest, you may prefer to see aerial imagery with place labels or the roads base map. If you are exploring landscapes, you may find aerial imagery without labels or natural earth rendering most useful. For analysis or to explore other data which you have added to the map viewer you may prefer the more understated base maps positron (light) or dark matter.
+### Basemap   
+The basemap can help find places of interest, provide context and satellite imagery. There are several different basemaps to choose from. If you are finding locations of interest, you may prefer to see aerial imagery with place labels or the roads basemap. If you are exploring landscapes, you may find aerial imagery without labels or natural earth rendering most useful. For analysis or to explore other data which you have added to the map viewer you may prefer the more understated basemaps positron (light) or dark matter.
 
-_Why cannot I see the base maps on display?_
+_Why cannot I see the basemaps on display?_
 
-Base map is only visible when there are no loaded raster layers on the display. By default, Total Vegetation cover layer is preloaded. To hide the layers, click the white box in the navigation pane next to each layer.
+Basemap is only visible when there are no loaded raster layers on the display. By default, Total Vegetation cover layer is preloaded. To hide the layers, click the white box in the navigation pane next to each layer.
 
 _Which basemap should I choose?_
 
@@ -30,11 +30,11 @@ Select a 2D basemap by:
     - each layer now shows a hollow box next to the legend.
 1. Click Map settings on Map viewer
 1. Click 2D top right
-1. Choose a 2D base map. The selected basemap shows a blue border, a tick in the top right corner and shows in the map viewer.
+1. Choose a 2D basemap. The selected basemap shows a blue border, a tick in the top right corner and shows in the map viewer.
 1. To close the map selector, click the x in the top right of the map selector
 
 ### Timeline  
-Do not activate the Timeline from the Map Settings Timeline box. A timeline Always show check box will appear in the Map settings window if 3D smooth or 3D terrain Map View are selected. Do not check on this box. This is a known bug and is not compatible with the RaPP map data layers or analysis tools. If you have switched this on and need to remove it, refresh your browser and re-open RaPP map using a 2D basemap (see [Base map](#base-map)).
+Do not activate the Timeline from the Map Settings Timeline box. A timeline Always show check box will appear in the Map settings window if 3D smooth or 3D terrain Map View are selected. Do not check on this box. This is a known bug and is not compatible with the RaPP map data layers or analysis tools. If you have switched this on and need to remove it, refresh your browser and re-open RaPP map using a 2D basemap (see [Basemap](#base-map)).
 
 To use a timeline, to display different available times for a data layer, select the use timeline button (Figure 3) in the Workbench/Navigation pane. See section [View timeline](data-layers.md#view-timeline) for more information.
 
@@ -62,7 +62,7 @@ To zoom to the extent of a data layer shown in the Map View find the layer legen
 
 The compare function is useful to show two different data layers side by side, or two different time points of the same data layer.
 
-To use Compare function first make sure the Map View is on 2D mode. Compare and timelines do not work using 3D Terrain or 3D smooth base maps. See [Base map](#base-map) for more information about base maps.
+To use Compare function first make sure the Map View is on 2D mode. Compare and timelines do not work using 3D Terrain or 3D smooth basemaps. See [Basemap](#base-map) for more information about basemaps.
 
 The compare function can be launched in two ways
 

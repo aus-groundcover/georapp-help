@@ -2,7 +2,7 @@
 
 ![](img/logo-geoglam-rapp.png)
 
-Version: DRAFT USER GUIDE August 2022
+Version: DRAFT USER GUIDE November 2022
 
 Geoglam RaPP Map is an online tool providing timeseries data on vegetation and environmental conditions.
 

@@ -2,7 +2,7 @@
 
 Q. _Why do my Analysis tools run slowly?_
 
-Make sure you have turn on the 2D base map settings.
+Make sure you have turn on the 2D basemap settings.
 
 Q. _Why is my map loading slower than before?_
 
