@@ -2,7 +2,7 @@
 This repository contains the Geoglam Rapp Help source files.
 
 - The documentation website is statically generated from this repository using [MkDocs](https://www.mkdocs.org).
-- Manually copy generated HTML files to the server at [https://eo-data.csiro.au/remotesensing/RaPP_Help](https://eo-data.csiro.au/remotesensing/RaPP_Help).
+- Manually copy generated HTML files to the server at [https://eo-data.csiro.au/remotesensing/rapp-help](https://eo-data.csiro.au/remotesensing/rapp-help).
 
 ## Getting Started
 
