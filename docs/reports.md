@@ -28,9 +28,9 @@ Regional reports are also published on the Report finder website [https://eo-dat
 The regional report finder page will appear as at figure 44
 
 <figure>
-<img src="../img/44-regional-report-finder.png" style="width:100%">
+<img src="../img/50-regional-report-finder.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 44: Regional report finder for Local Government Areas
+</figcaption>Figure 50: Regional report finder for Local Government Areas
 </figure>
 
 To choose a report

@@ -31,15 +31,15 @@ Click on the three vertical dots and then the Export tool.
 Export - download a Geotiff of the area shown on the map   
 
 <figure>
-<img src="../img/42-exporting-to-geotiff.png" style="width:100%">
+<img src="../img/51-exporting-to-geotiff.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 42: Exporting the display as a Geotiff image
+</figcaption>Figure 51: Exporting the display as a Geotiff image
 </figure>
 
 The window Figure 43 appears. Click on the map twice to draw the rectangle. Then click Download Extent.
 
 <figure>
-<img src="../img/43-download-extent.png" style="width:100%">
+<img src="../img/52-download-extent.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 43: Download extent
+</figcaption>Figure 52: Download extent
 </figure>
