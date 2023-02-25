@@ -3,9 +3,9 @@
 The Analysis tools provide time-series analysis for the area of interest (selected points or polygons) of Fractional and Total Vegetation cover types (MODIS, 500 m) from Jan 2001 to current. To use analysis tools, click Explore map data and select Analysis Tools (Figure 41). 
 
 <figure>
-<img src="../img/41-analysis-tools.png" style="width:100%">
+<img src="../img/47-analysis-tools.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 41: Analysis Tools
+</figcaption>Figure 47: Analysis Tools
 </figure>
 
 Analysis tools offer more flexibility than the regional reports, as you can analyse timeseries patterns of Total Vegetation Cover for your custom polygons or points.
@@ -28,9 +28,9 @@ The Proportion of region within a Total Vegetation Cover range analysis tool is 
 Time series analysis can be performed using a vector geometry point or polygon. You can either use an inbuilt polygon dataset from the Rapp tool, use your own prepared point or polygon files or you can draw one. Figure 42 shows the Analysis tool window with the choice of three Geometry inputs; Point (lat/lon), Polygon, and existing polygon.
 
 <figure>
-<img src="../img/42-analysis-geometry-inputs.png" style="width:100%">
+<img src="../img/48-analysis-geometry-inputs.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 42: Analysis geometry inputs
+</figcaption>Figure 48: Analysis geometry inputs
 </figure>
 
 _To use an inbuilt polygon dataset layer for analysis:_
@@ -58,7 +58,7 @@ _Use your own prepared point or polygon files_
 
 Draw a new _Point (Lat/Lon)_ or _Polygon_. 
 
-1. Hide other layers to see the base map (or other context needed to locate your area of interest)
+1. Hide other layers to see the basemap (or other context needed to locate your area of interest)
 1. Navigate to your area of interest ([Search for location](workbench.md#search-for-location))
 1. Open Analysis tool (Explore map data, Analysis tools tab)
 1. Click point or polygon – This will take you to the map screen.
@@ -73,9 +73,9 @@ You can display the time series (monthly and 8-day data) of the mean Fractional 
 Mean values can be useful for small areas to summarise the vegetation cover. However, mean values can be misleading and hide variation especially over large areas or time spans. We suggest spatial Total vegetation cover averages are appropriate for areas less than 1 square kilometre depending on the complexity of the landscape. Creating a target based on the average Total vegetation cover from a time series is also problematic because the target will fail half of the time. This is because the mean has roughly half the values above and half below it. Mean values can also be skewed by outlier values.
 
 <figure>
-<img src="../img/43-analysis-monthly-fc.png" style="width:100%">
+<img src="../img/49-analysis-monthly-fc.png" style="width:100%">
 <figcaption align="center">
-</figcaption>Figure 43: Chart from analysis of monthly fractional cover mean for Corangamite NRM region Victoria
+</figcaption>Figure 49: Chart from analysis of monthly fractional cover mean for Corangamite NRM region Victoria
 </figure>
 
 __Mean for point or region (Monthly)__

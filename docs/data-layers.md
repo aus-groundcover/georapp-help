@@ -144,7 +144,7 @@ To remove a single layer from the workbench
 ### Remove all layers (empty the workbench)
 Removing all layers in the workbench area (including the layers loaded by default) will empty the workbench leaving only the basemap. To empty the workbench click _Remove All_ under the blue “Explore map data” and “upload” tools (Figure 26)
 
-Note: all layers will be immediately removed leaving only the base map. There is no warning or undo for removing all layers. To return to the default view refresh the page or reload [https://map.geo-rapp.org](https://map.geo-rapp.org).
+Note: All layers will be immediately removed leaving only the basemap. There is no warning or undo for removing all layers. To return to the default view refresh the page or reload [GEOGLAM RAPP (geo-rapp.org)](https://map.geo-rapp.org).
 
 <figure>
 <img src="../img/26-remove-all-layers.png" style="width:100%">
@@ -237,7 +237,7 @@ To see the timeseries change from the selected date to present, you can click th
 
 _Why is my timeseries change playing very slowly?_
 
-This could be because of the high number of loaded layers in the display. Make sure the base map in 2D mode. Turn off all other unnecessary datasets and run again.
+This could be because of the high number of loaded layers in the display. Make sure the basemap in 2D mode. Turn off all other unnecessary datasets and run again.
 
 ## Data catalogue layers
 Rapp map comes with a data catalogue containing data layers for view, analysis, reporting and sharing. RaPP map also enables you to add other public data or your own data and layers either from files or web services.
@@ -389,6 +389,7 @@ _What can I do with my data and layers uploaded into RaPP map?_
 
 - View, pan, zoom 
 - Show and hide layers
+- Change the way uploaded polygons display (style and colour) 
 - Link CSV files to Australian standard regions and see the data in the map view 
 - Print map and Print view
 - Analysis of time series MODIS fractional cover using your own vector data: points or polygons (see [Analysis tools](analysis-tools.md)).
@@ -411,13 +412,13 @@ Follow these steps to upload data from the workbench
 1. Click _Upload_ or _Explore Map data_ to access the Data catalogue window 
 1. Click _My Data_
 1. Find your data. Your data may be local (stored on your device) or web data (available from a URL)
-    - For local data stored on your device you may prefer to drag and drop. Otherwise click _Add Local Data_. 
-        - Click _Browse_ to navigate to where your data is stored. 
-        - Select the data you wish to add. Click Open.
-        - Your data should now be added to RaPP map view, Workspace legend, and details such as the data layer name and extent should show in the data catalogue window. 
-        - Click _done_ on the top right to see your data in the map view. 
-        - For more information about drawing your own polygons see [My polygons](#my-polygons). For more information about using your polygons for analysis see [Analysis tool geometry inputs](analysis-tools.md#analysis-tool-geometry-inputs).
-    - For web data, click Add Web Data. See [Other web services](#other-web-services) for more information.
+    1. For local data stored on your device you may prefer to drag and drop. Otherwise click _Add Local Data_. 
+        1. Click _Browse_ to navigate to where your data is stored. 
+        1. Select the data you wish to add. Click Open.
+        1. Your data should now be added to RaPP map view, Workspace legend, and details such as the data layer name and extent should show in the data catalogue window. 
+        1. Click _done_ on the top right to see your data in the map view. 
+        1. For more information about drawing your own polygons see [My polygons](#my-polygons). For more information about using your polygons for analysis see [Analysis tool geometry inputs](analysis-tools.md#analysis-tool-geometry-inputs).
+    1. For web data, click _Add Web Data_. See [Other web services](#other-web-services) for more information.
 
 RaPP map compatible formats for local data include GeoJSON, KML or KMZ, CSV, CZML, GPX, JSON, GeoRSS, glTF, Shapefile (zip) and IFC.
 
@@ -466,6 +467,73 @@ This example uses a free online tool that to create a GeoJSON which you can extr
 1. Once you have created the polygon (or point), click Save on the top ribbon and save as kml or GeoJSON file. (Advantage of GeoJSON file is when it dropped into the Rapp map it will add as a layer with opacity feature where you can set the transparency to see the underneath layer)
 1. Open Rapp map and add your polygon (See [My data and layers](#my-data-and-layers)).
 
+### Edit polygon style
+This section explains how to use the style editor to edit the display colour and transparency of polygons imported into RaPP map.
+
+__When can I use style editor?__
+
+The style editor option should be visible with vector data layers that you have imported into RaPP map (see [How to upload data](#how-to-upload-data) and [My polygons](#my-polygons)). Unfortunately style editor is not available for gridded data or points or polygons drawn directly into RaPP map.
+
+Once you have added your polygon it will be displayed in the map viewer and listed in workbench.
+
+<figure>
+<img src="../img/39-polygon-display.png" style="width:100%">
+<figcaption align="center">
+</figcaption>Figure 39: Polygons display
+</figure>
+
+To adjust how your polygon displays you can:
+
+- adjust the slider for opacity
+- click the three dots to see _Edit style_.
+
+<figure>
+<img src="../img/40-edit-style.png" style="width:100%">
+<figcaption align="center">
+</figcaption>Figure 40: Edit Style
+</figure>
+
+Once you have selected Edit Style, the style editor will open. Using the Style editor dialog box, you can view, create, and modify styles of the polygons.
+
+<figure>
+<img src="../img/41-style-editor.png" style="width:100%">
+<figcaption align="center">
+</figcaption>Figure 41: Style editor window
+</figure>
+
+If your polygon data includes distinct categories, such as property name, paddock name, Grant ID etc. you can display those individual categories on the map or you can turn these off to display all in the same way.
+
+To change the display to relate to a different attribute field:
+
+1. Click the small arrow in the text bar below _Style_ and select your category of interest in the style field drop menu.
+    <figure>
+    <img src="../img/42-select-polygon-category.png" style="width:100%">
+    <figcaption align="center">
+    </figcaption>Figure 42: Selecting a category of the polygon to display
+    </figure>
+1. Click the _Symbology_ field and choose the polygon style you want to change (eg: Filled colour or outline colour)
+1. Click the _Scheme_ field and choose a colour palette for the polygons. This will change the color of the polygons on the map viewer to the corresponding category colour.
+1. If you don't find the exact color you want in the array of colors on the Scheme, you can select your preferred colour for each polygon in the colors field. Click the small arrow next to each category (Eg: Property names). Click the colour box.  A colour picker window will open. Select the colour you want to choose by one of the below options
+    1. Clicking on the colour scheme _Or_
+    1. Using the slider box _Or_
+    1. Typing a colour code into the box.
+    <figure>
+    <img src="../img/43-style-editor-options.png" style="width:100%">
+    <figcaption align="center">
+    </figcaption>Figure 43: Style editor options to change the polygon style
+    </figure>
+1. Click done at the top right of _Style_ editor to apply your new style.
+
+Note: Unfortunately, you cannot save this style to use in another session. However, you can save and download this view as .png image. See section [Print](share-print-story#print).
+
+You can also use unfilled polygons (only with outline) to view the interior layers. To do this move the slide icon in the transparent slider to the extreme left.
+
+<figure>
+<img src="../img/44-opacity-slider.png" style="width:100%">
+<figcaption align="center">
+</figcaption>Figure 44: Use opacity slider to increase the transparency of the interior of the polygons
+</figure>
+
 ### Other web services
 You can add any web mapping services from online mapping applications sites.
 
@@ -479,14 +547,14 @@ For Example, if you want to add Catchment scale land use of Australia 2020 to vi
 1. Click Add Web Data
 1. Paste the URL you have copied in the Step 2 text box. Click Add. 
     <figure>
-    <img src="../img/39-enter-url.png" style="width:100%">
+    <img src="../img/45-enter-url.png" style="width:100%">
     <figcaption align="center">
-    </figcaption>Figure 39: Step 2 text box to enter the URL of Web map services
+    </figcaption>Figure 45: Step 2 text box to enter the URL of Web map services
     </figure>
 1. Click the drop down arrow button next to the data layer name “Catchment Scale Land Use of Australia – Update December 2020” from the left side window. Now you can see the different types of data layers 
 1. Click the plus button next to the data layer “Catchment Scale Land Use 2020 – Primary Classification” to load the data to the Map Viewer. As this is a raster type data layer you can only use this for contextual purposes.
     <figure>
-    <img src="../img/40-catchment-scale-land-use.png" style="width:100%">
+    <img src="../img/46-catchment-scale-land-use.png" style="width:100%">
     <figcaption align="center">
-    </figcaption>Figure 40: Load the Catchment Scale Land Use 2020 -Primary Classification layer to the Map viewer
+    </figcaption>Figure 46: Load the Catchment Scale Land Use 2020 -Primary Classification layer to the Map viewer
     </figure>
